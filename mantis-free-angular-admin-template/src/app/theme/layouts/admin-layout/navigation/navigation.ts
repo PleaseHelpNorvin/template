@@ -27,13 +27,32 @@ export const NavigationItems: NavigationItem[] = [
     children: [
       {
         id: 'default',
-        title: 'Default',
+        title: 'ddddddd',
         type: 'item',
         classes: 'nav-item',
         url: '/dashboard/default',
         icon: 'dashboard',
         breadcrumbs: false
-      }
+      },
+      
+    ]
+  },
+  {
+    id: 'dashboard',
+    title: 'Dashbowssssard',
+    type: 'group',
+    icon: 'icon-navigation',
+    children: [
+      {
+        id: 'default',
+        title: 'ddddddd',
+        type: 'item',
+        classes: 'nav-item',
+        url: '/default',
+        icon: 'dashboard',
+        breadcrumbs: false
+      },
+      
     ]
   },
   {
@@ -99,30 +118,5 @@ export const NavigationItems: NavigationItem[] = [
     ]
   },
 
-  {
-    id: 'other',
-    title: 'Other',
-    type: 'group',
-    icon: 'icon-navigation',
-    children: [
-      {
-        id: 'sample-page',
-        title: 'Sample Page',
-        type: 'item',
-        url: '/sample-page',
-        classes: 'nav-item',
-        icon: 'chrome'
-      },
-      {
-        id: 'document',
-        title: 'Document',
-        type: 'item',
-        classes: 'nav-item',
-        url: 'https://codedthemes.gitbook.io/mantis-angular/',
-        icon: 'question',
-        target: true,
-        external: true
-      }
-    ]
-  }
+  
 ];
